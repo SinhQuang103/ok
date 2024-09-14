@@ -1,0 +1,126 @@
+/* src/components/AdminPage.css */
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.AdminHeader {
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    width: 15%;
+    height: 80%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.AdminSearchBar {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.AdminSearchBar input {
+    width: 80%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.AddProduct {
+    width: 10%;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Body {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Category {
+    width: 20%;
+    background-color: #e8e8e8;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Category a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 0;
+}
+
+.Category a:hover {
+    color: #4CAF50;
+}
+
+.ProductList {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    justify-content: flex-start;
+}
+
+.Product1 {
+    width: calc(20% - 20px); /* 5 products per row */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Image {
+    width: 100%;
+    height: 150px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.EditButton {
+    width: 80%;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.Tag {
+    font-size: 14px;
+    color: #777;
+}
